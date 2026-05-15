@@ -1,12 +1,12 @@
 {
-  "uid" : "dcc5dfa1f51ddd34",
+  "uid" : "534f3dfc4c1c7497",
   "name" : "testSecurePageURL",
   "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageURL",
   "historyId" : "ebcbb5f714902a03810be80470bd4537",
   "time" : {
-    "start" : 1778850653895,
-    "stop" : 1778850654354,
-    "duration" : 459
+    "start" : 1778856516585,
+    "stop" : 1778856517338,
+    "duration" : 753
   },
   "description" : "Check the Secure Page URL after a valid login",
   "descriptionHtml" : "<p>Check the Secure Page URL after a valid login</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1778850652998,
-      "stop" : 1778850653877,
-      "duration" : 879
+      "start" : 1778856516171,
+      "stop" : 1778856516583,
+      "duration" : 412
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1778850634326,
-      "stop" : 1778850634329,
-      "duration" : 3
+      "start" : 1778856497059,
+      "stop" : 1778856497064,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1778850654355,
-      "stop" : 1778850654662,
-      "duration" : 307
+      "start" : 1778856517339,
+      "stop" : 1778856517408,
+      "duration" : 69
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "host",
-    "value" : "runnervmeorf1"
+    "value" : "runnervmrw5os"
   }, {
     "name" : "thread",
-    "value" : "2229@runnervmeorf1.main(1)"
+    "value" : "2391@runnervmrw5os.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dcc5dfa1f51ddd34.json",
+  "source" : "534f3dfc4c1c7497.json",
   "parameterValues" : [ ]
 }

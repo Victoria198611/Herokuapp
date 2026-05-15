@@ -1,24 +1,24 @@
 {
-  "uid" : "c2a94b7e4c16da88",
-  "name" : "testSecurePageAccessWithoutLogin",
-  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageAccessWithoutLogin",
-  "historyId" : "23ce3418c8c758568865d2ad02babcd9",
+  "uid" : "fd53847e91fd37df",
+  "name" : "testLogoutFunctionality",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testLogoutFunctionality",
+  "historyId" : "8dfe26d69cfa1a285a39c3fc2c9e27f3",
   "time" : {
-    "start" : 1778850648520,
-    "stop" : 1778850648996,
-    "duration" : 476
+    "start" : 1778856512587,
+    "stop" : 1778856513306,
+    "duration" : 719
   },
-  "description" : "Verify access to SecurePage without login",
-  "descriptionHtml" : "<p>Verify access to SecurePage without login</p>\n",
+  "description" : "Check the Logout functionality",
+  "descriptionHtml" : "<p>Check the Logout functionality</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1778850647808,
-      "stop" : 1778850648518,
-      "duration" : 710
+      "start" : 1778856512135,
+      "stop" : 1778856512586,
+      "duration" : 451
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1778850634326,
-      "stop" : 1778850634329,
-      "duration" : 3
+      "start" : 1778856497059,
+      "stop" : 1778856497064,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1778850648997,
-      "stop" : 1778850649516,
-      "duration" : 519
+      "start" : 1778856513307,
+      "stop" : 1778856513377,
+      "duration" : 70
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testSecurePageAccessWithoutLogin"
+    "value" : "testLogoutFunctionality"
   }, {
     "name" : "parentSuite",
     "value" : "HerokuApp Suite"
@@ -83,10 +83,10 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "host",
-    "value" : "runnervmeorf1"
+    "value" : "runnervmrw5os"
   }, {
     "name" : "thread",
-    "value" : "2229@runnervmeorf1.main(1)"
+    "value" : "2391@runnervmrw5os.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c2a94b7e4c16da88.json",
+  "source" : "fd53847e91fd37df.json",
   "parameterValues" : [ ]
 }

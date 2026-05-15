@@ -1,24 +1,24 @@
 {
-  "uid" : "bf536178500199e9",
-  "name" : "testInvalidLoginDataProvider",
-  "fullName" : "com.victoria.herokuapp.LoginTest.testInvalidLoginDataProvider",
-  "historyId" : "5a072310d27530693825fd4e1702f8e8",
+  "uid" : "f3d332c19ef88451",
+  "name" : "testValidLogin",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testValidLogin",
+  "historyId" : "e9047ff07a41be434d913a4f9c7a5a40",
   "time" : {
-    "start" : 1778850642580,
-    "stop" : 1778850642898,
-    "duration" : 318
+    "start" : 1778856517836,
+    "stop" : 1778856518604,
+    "duration" : 768
   },
-  "description" : "Check invalid login using DataProvider.",
-  "descriptionHtml" : "<p>Check invalid login using DataProvider.</p>\n",
+  "description" : "Verify login with valid credentials and display of SecurePage",
+  "descriptionHtml" : "<p>Verify login with valid credentials and display of SecurePage</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1778850641337,
-      "stop" : 1778850642579,
-      "duration" : 1242
+      "start" : 1778856517409,
+      "stop" : 1778856517835,
+      "duration" : 426
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1778850634326,
-      "stop" : 1778850634329,
-      "duration" : 3
+      "start" : 1778856497059,
+      "stop" : 1778856497064,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1778850642899,
-      "stop" : 1778850643037,
-      "duration" : 138
+      "start" : 1778856518605,
+      "stop" : 1778856518674,
+      "duration" : 69
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testInvalidLoginDataProvider"
+    "value" : "testValidLogin"
   }, {
     "name" : "parentSuite",
     "value" : "HerokuApp Suite"
@@ -83,10 +83,10 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "host",
-    "value" : "runnervmeorf1"
+    "value" : "runnervmrw5os"
   }, {
     "name" : "thread",
-    "value" : "2229@runnervmeorf1.main(1)"
+    "value" : "2391@runnervmrw5os.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -97,16 +97,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "arg0",
-    "value" : ""
-  }, {
-    "name" : "arg1",
-    "value" : "SuperSecretPassword!"
-  }, {
-    "name" : "arg2",
-    "value" : "Your username is invalid!"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -116,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bf536178500199e9.json",
-  "parameterValues" : [ "", "SuperSecretPassword!", "Your username is invalid!" ]
+  "source" : "f3d332c19ef88451.json",
+  "parameterValues" : [ ]
 }
