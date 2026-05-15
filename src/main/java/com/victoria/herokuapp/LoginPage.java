@@ -3,7 +3,11 @@ package com.victoria.herokuapp;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class LoginPage extends BasePage {
 
@@ -86,10 +90,14 @@ public class LoginPage extends BasePage {
 
     // Get logout message
     public String getLogoutMessage() {
-        try {
-            return waitForVisible(logoutMessage).getText();
-        } catch (Exception e) {
-            return "";
-        }
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement flash = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash")));
+        return flash.getText().trim();
     }
+
+
+// Get logout Successful
+public boolean isLogoutSuccessful(){
+    return getLogoutMessage().contains("You logged out");
+}
 }
