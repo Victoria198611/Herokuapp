@@ -1,0 +1,112 @@
+{
+  "uid" : "af4cb8bede4a79a0",
+  "name" : "testSecurePageMessage",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageMessage",
+  "historyId" : "bb5ade267ba00330192ce1bf3e1a669f",
+  "time" : {
+    "start" : 1778850652291,
+    "stop" : 1778850652826,
+    "duration" : 535
+  },
+  "description" : "Check the success message after valid login",
+  "descriptionHtml" : "<p>Check the success message after valid login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1778850651402,
+      "stop" : 1778850652289,
+      "duration" : 887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupEnvironment",
+    "time" : {
+      "start" : 1778850634326,
+      "stop" : 1778850634329,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1778850652827,
+      "stop" : 1778850652995,
+      "duration" : 168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSecurePageMessage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HerokuApp Suite"
+  }, {
+    "name" : "suite",
+    "value" : "HerokuApp Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "runnervmeorf1"
+  }, {
+    "name" : "thread",
+    "value" : "2229@runnervmeorf1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af4cb8bede4a79a0.json",
+  "parameterValues" : [ ]
+}

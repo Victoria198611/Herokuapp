@@ -1,0 +1,121 @@
+{
+  "uid" : "f678b449774ae16",
+  "name" : "testInvalidLoginDataProvider",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testInvalidLoginDataProvider",
+  "historyId" : "7eeff52bad69332fd4d6f10a928567f8",
+  "time" : {
+    "start" : 1778850644955,
+    "stop" : 1778850645263,
+    "duration" : 308
+  },
+  "description" : "Check invalid login using DataProvider.",
+  "descriptionHtml" : "<p>Check invalid login using DataProvider.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1778850643038,
+      "stop" : 1778850644953,
+      "duration" : 1915
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupEnvironment",
+    "time" : {
+      "start" : 1778850634326,
+      "stop" : 1778850634329,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1778850645264,
+      "stop" : 1778850645333,
+      "duration" : 69
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInvalidLoginDataProvider"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HerokuApp Suite"
+  }, {
+    "name" : "suite",
+    "value" : "HerokuApp Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.victoria.herokuapp.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "runnervmeorf1"
+  }, {
+    "name" : "thread",
+    "value" : "2229@runnervmeorf1.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "tomsmith"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "Your password is invalid!"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f678b449774ae16.json",
+  "parameterValues" : [ "tomsmith", "", "Your password is invalid!" ]
+}

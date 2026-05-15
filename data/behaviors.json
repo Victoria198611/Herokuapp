@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "testInvalidLoginDataProvider",
+    "uid" : "ba8fb26ba3e06183",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850637992,
+      "stop" : 1778850638385,
+      "duration" : 393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "wrongUser", "SuperSecretPassword!", "Your username is invalid!" ]
+  }, {
+    "name" : "testInvalidLoginDataProvider",
+    "uid" : "42aa0a273c350e8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850640940,
+      "stop" : 1778850641266,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "tomsmith", "wrongPass", "Your password is invalid!" ]
+  }, {
+    "name" : "testInvalidLoginDataProvider",
+    "uid" : "bf536178500199e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850642580,
+      "stop" : 1778850642898,
+      "duration" : 318
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "", "SuperSecretPassword!", "Your username is invalid!" ]
+  }, {
+    "name" : "testInvalidLoginDataProvider",
+    "uid" : "f678b449774ae16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850644955,
+      "stop" : 1778850645263,
+      "duration" : 308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "tomsmith", "", "Your password is invalid!" ]
+  }, {
+    "name" : "testLogoutFunctionality",
+    "uid" : "f3e7983012bb0584",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850646516,
+      "stop" : 1778850647145,
+      "duration" : 629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testSecurePageAccessWithoutLogin",
+    "uid" : "c2a94b7e4c16da88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850648520,
+      "stop" : 1778850648996,
+      "duration" : 476
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testSecurePageElements",
+    "uid" : "7f8e48441a713e5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850650586,
+      "stop" : 1778850651331,
+      "duration" : 745
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testSecurePageMessage",
+    "uid" : "af4cb8bede4a79a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850652291,
+      "stop" : 1778850652826,
+      "duration" : 535
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testSecurePageURL",
+    "uid" : "dcc5dfa1f51ddd34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850653895,
+      "stop" : 1778850654354,
+      "duration" : 459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testValidLogin",
+    "uid" : "a48e46764c693970",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1778850656131,
+      "stop" : 1778850656436,
+      "duration" : 305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "ba8fb26ba3e06183",
+  "name" : "testInvalidLoginDataProvider",
+  "time" : {
+    "start" : 1778850637992,
+    "stop" : 1778850638385,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf536178500199e9",
+  "name" : "testInvalidLoginDataProvider",
+  "time" : {
+    "start" : 1778850642580,
+    "stop" : 1778850642898,
+    "duration" : 318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2a94b7e4c16da88",
+  "name" : "testSecurePageAccessWithoutLogin",
+  "time" : {
+    "start" : 1778850648520,
+    "stop" : 1778850648996,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f678b449774ae16",
+  "name" : "testInvalidLoginDataProvider",
+  "time" : {
+    "start" : 1778850644955,
+    "stop" : 1778850645263,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4cb8bede4a79a0",
+  "name" : "testSecurePageMessage",
+  "time" : {
+    "start" : 1778850652291,
+    "stop" : 1778850652826,
+    "duration" : 535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42aa0a273c350e8d",
+  "name" : "testInvalidLoginDataProvider",
+  "time" : {
+    "start" : 1778850640940,
+    "stop" : 1778850641266,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3e7983012bb0584",
+  "name" : "testLogoutFunctionality",
+  "time" : {
+    "start" : 1778850646516,
+    "stop" : 1778850647145,
+    "duration" : 629
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f8e48441a713e5b",
+  "name" : "testSecurePageElements",
+  "time" : {
+    "start" : 1778850650586,
+    "stop" : 1778850651331,
+    "duration" : 745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcc5dfa1f51ddd34",
+  "name" : "testSecurePageURL",
+  "time" : {
+    "start" : 1778850653895,
+    "stop" : 1778850654354,
+    "duration" : 459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48e46764c693970",
+  "name" : "testValidLogin",
+  "time" : {
+    "start" : 1778850656131,
+    "stop" : 1778850656436,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

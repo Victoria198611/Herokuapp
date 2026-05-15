@@ -1,0 +1,28 @@
+[ {
+  "values" : [ "HerokuApp UI Automation" ],
+  "name" : "Project"
+}, {
+  "values" : [ "Victoria" ],
+  "name" : "Tester"
+}, {
+  "values" : [ "Local" ],
+  "name" : "Environment"
+}, {
+  "values" : [ "Chrome 124" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "Windows 11" ],
+  "name" : "Platform"
+}, {
+  "values" : [ "17" ],
+  "name" : "JavaVersion"
+}, {
+  "values" : [ "TestNG" ],
+  "name" : "TestFramework"
+}, {
+  "values" : [ "Maven" ],
+  "name" : "BuildTool"
+}, {
+  "values" : [ "Allure" ],
+  "name" : "Reporting"
+} ]
