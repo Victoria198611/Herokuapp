@@ -96,8 +96,11 @@ public class LoginPage extends BasePage {
     }
 
 
-// Get logout Successful
-public boolean isLogoutSuccessful(){
-    return getLogoutMessage().contains("You logged out");
-}
+    // Get logout Successful
+    public boolean isLogoutSuccessful() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement flash = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash")));
+        String message = flash.getText().trim().replace("×", "").trim();
+        return message.contains("You logged out of the secure area!");
+    }
 }
