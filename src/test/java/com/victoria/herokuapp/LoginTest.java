@@ -12,7 +12,7 @@ public class LoginTest extends BaseTest {
     public void testValidLogin() {
         SecurePage securePage = performValidLogin();
         Assert.assertTrue(securePage.isSecurePageDisplayed(), "SecurePage nu este afisata");
-        // Intentional fail for screenshot
+        // This test intentionally fails to verify screenshot capture in Allure report
        // Assert.fail("Intentional failure to verify screenshot");
     }
 
