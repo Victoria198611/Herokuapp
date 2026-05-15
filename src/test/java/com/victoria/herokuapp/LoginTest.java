@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
         SecurePage securePage = performValidLogin();
         Assert.assertTrue(securePage.isSecurePageDisplayed(), "SecurePage nu este afisata");
         // Intentional fail for screenshot
-        Assert.fail("Intentional failure to verify screenshot");
+       // Assert.fail("Intentional failure to verify screenshot");
     }
 
     @Test
