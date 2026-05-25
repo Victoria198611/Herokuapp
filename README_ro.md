@@ -84,4 +84,4 @@ Exemple:
  environment.properties — configurarea mediului pentru Allure (browser, OS, tester, versiuni).
 
 Autor
-Victoria QA Automation Engineer Proiect creat pentru portofoliu profesional și dezvoltare continuă.
+Victoria QA Automation Tester. Creat pentru portofoliu profesional și dezvoltare continuă.
