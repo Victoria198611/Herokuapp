@@ -95,15 +95,12 @@ public class LoginPage extends BasePage {
         return flash.getText().trim();
     }
 
-
     // Get logout Successful
     public boolean isLogoutSuccessful() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement flash = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash")));
-
         String message = flash.getText().replace("×", "").trim();
         System.out.println("Logout message: " + message);
-
         return message.toLowerCase().contains("you logged out");
     }
-}
+    }
