@@ -101,6 +101,6 @@ public class LoginPage extends BasePage {
         WebElement flash = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash")));
         String message = flash.getText().replace("×", "").trim();
         System.out.println("Logout message: " + message);
-        return message.toLowerCase().contains("you logged out");
+        return message.toLowerCase().contains("you logged out of the secure area");
     }
-    }
+}
