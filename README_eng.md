@@ -82,4 +82,4 @@ Examples:
 •	environment.properties — Allure environment configuration (browser, OS, tester, versions)
 
 Author
-Victoria QA Automation Engineer Project created for professional portfolio and continuous development.
+Victoria — QA Automation Tester. Created for professional portfolio and continuous development.
