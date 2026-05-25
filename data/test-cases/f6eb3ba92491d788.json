@@ -1,24 +1,24 @@
 {
-  "uid" : "1183fcf84c8ef7c1",
-  "name" : "testSecurePageElements",
-  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageElements",
-  "historyId" : "e9b6a098ef19c87a14fe863287bc20c2",
+  "uid" : "f6eb3ba92491d788",
+  "name" : "testSecurePageURL",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageURL",
+  "historyId" : "ebcbb5f714902a03810be80470bd4537",
   "time" : {
-    "start" : 1779699288076,
-    "stop" : 1779699288440,
-    "duration" : 364
+    "start" : 1779722304383,
+    "stop" : 1779722304717,
+    "duration" : 334
   },
-  "description" : "Check the visible elements on SecurePage",
-  "descriptionHtml" : "<p>Check the visible elements on SecurePage</p>\n",
+  "description" : "Check the Secure Page URL after a valid login",
+  "descriptionHtml" : "<p>Check the Secure Page URL after a valid login</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1779699287627,
-      "stop" : 1779699288074,
-      "duration" : 447
+      "start" : 1779722303915,
+      "stop" : 1779722304381,
+      "duration" : 466
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1779699263449,
-      "stop" : 1779699263455,
-      "duration" : 6
+      "start" : 1779722283291,
+      "stop" : 1779722283296,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1779699288441,
-      "stop" : 1779699288511,
+      "start" : 1779722304718,
+      "stop" : 1779722304788,
       "duration" : 70
     },
     "description" : "",
@@ -71,7 +71,7 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testSecurePageElements"
+    "value" : "testSecurePageURL"
   }, {
     "name" : "parentSuite",
     "value" : "HerokuApp Suite"
@@ -86,7 +86,7 @@
     "value" : "runnervmg397c"
   }, {
     "name" : "thread",
-    "value" : "2386@runnervmg397c.main(1)"
+    "value" : "2393@runnervmg397c.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1183fcf84c8ef7c1.json",
+  "source" : "f6eb3ba92491d788.json",
   "parameterValues" : [ ]
 }

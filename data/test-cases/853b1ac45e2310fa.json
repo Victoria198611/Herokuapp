@@ -1,24 +1,24 @@
 {
-  "uid" : "ee27045795f5ad65",
-  "name" : "testSecurePageAccessWithoutLogin",
-  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageAccessWithoutLogin",
-  "historyId" : "23ce3418c8c758568865d2ad02babcd9",
+  "uid" : "853b1ac45e2310fa",
+  "name" : "testValidLogin",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testValidLogin",
+  "historyId" : "e9047ff07a41be434d913a4f9c7a5a40",
   "time" : {
-    "start" : 1779699287445,
-    "stop" : 1779699287553,
-    "duration" : 108
+    "start" : 1779722305219,
+    "stop" : 1779722305583,
+    "duration" : 364
   },
-  "description" : "Verify access to SecurePage without login",
-  "descriptionHtml" : "<p>Verify access to SecurePage without login</p>\n",
+  "description" : "Verify login with valid credentials and display of SecurePage",
+  "descriptionHtml" : "<p>Verify login with valid credentials and display of SecurePage</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1779699286990,
-      "stop" : 1779699287443,
-      "duration" : 453
+      "start" : 1779722304790,
+      "stop" : 1779722305218,
+      "duration" : 428
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1779699263449,
-      "stop" : 1779699263455,
-      "duration" : 6
+      "start" : 1779722283291,
+      "stop" : 1779722283296,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1779699287554,
-      "stop" : 1779699287625,
-      "duration" : 71
+      "start" : 1779722305584,
+      "stop" : 1779722305654,
+      "duration" : 70
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testSecurePageAccessWithoutLogin"
+    "value" : "testValidLogin"
   }, {
     "name" : "parentSuite",
     "value" : "HerokuApp Suite"
@@ -86,7 +86,7 @@
     "value" : "runnervmg397c"
   }, {
     "name" : "thread",
-    "value" : "2386@runnervmg397c.main(1)"
+    "value" : "2393@runnervmg397c.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ee27045795f5ad65.json",
+  "source" : "853b1ac45e2310fa.json",
   "parameterValues" : [ ]
 }
