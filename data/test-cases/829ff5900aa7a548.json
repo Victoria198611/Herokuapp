@@ -1,12 +1,12 @@
 {
-  "uid" : "bba17197943f0af6",
+  "uid" : "829ff5900aa7a548",
   "name" : "testInvalidLoginDataProvider",
   "fullName" : "com.victoria.herokuapp.LoginTest.testInvalidLoginDataProvider",
   "historyId" : "5a072310d27530693825fd4e1702f8e8",
   "time" : {
-    "start" : 1779698868046,
-    "stop" : 1779698868524,
-    "duration" : 478
+    "start" : 1779699217116,
+    "stop" : 1779699217503,
+    "duration" : 387
   },
   "description" : "Check invalid login using DataProvider.",
   "descriptionHtml" : "<p>Check invalid login using DataProvider.</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1779698866910,
-      "stop" : 1779698868044,
-      "duration" : 1134
+      "start" : 1779699216660,
+      "stop" : 1779699217114,
+      "duration" : 454
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1779698860652,
-      "stop" : 1779698860657,
+      "start" : 1779699211534,
+      "stop" : 1779699211539,
       "duration" : 5
     },
     "description" : "",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1779698868525,
-      "stop" : 1779698868594,
-      "duration" : 69
+      "start" : 1779699217505,
+      "stop" : 1779699217575,
+      "duration" : 70
     },
     "description" : "",
     "status" : "passed",
@@ -86,7 +86,7 @@
     "value" : "runnervmg397c"
   }, {
     "name" : "thread",
-    "value" : "2452@runnervmg397c.main(1)"
+    "value" : "2388@runnervmg397c.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -116,6 +116,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bba17197943f0af6.json",
+  "source" : "829ff5900aa7a548.json",
   "parameterValues" : [ "", "SuperSecretPassword!", "Your username is invalid!" ]
 }

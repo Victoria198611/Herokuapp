@@ -1,12 +1,12 @@
 {
-  "uid" : "6c266b70fd0aba34",
+  "uid" : "d832398abfa83e08",
   "name" : "testValidLogin",
   "fullName" : "com.victoria.herokuapp.LoginTest.testValidLogin",
   "historyId" : "e9047ff07a41be434d913a4f9c7a5a40",
   "time" : {
-    "start" : 1779698879745,
-    "stop" : 1779698880528,
-    "duration" : 783
+    "start" : 1779699223386,
+    "stop" : 1779699224180,
+    "duration" : 794
   },
   "description" : "Verify login with valid credentials and display of SecurePage",
   "descriptionHtml" : "<p>Verify login with valid credentials and display of SecurePage</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1779698878626,
-      "stop" : 1779698879743,
-      "duration" : 1117
+      "start" : 1779699222933,
+      "stop" : 1779699223384,
+      "duration" : 451
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1779698860652,
-      "stop" : 1779698860657,
+      "start" : 1779699211534,
+      "stop" : 1779699211539,
       "duration" : 5
     },
     "description" : "",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1779698880529,
-      "stop" : 1779698880599,
+      "start" : 1779699224181,
+      "stop" : 1779699224251,
       "duration" : 70
     },
     "description" : "",
@@ -86,7 +86,7 @@
     "value" : "runnervmg397c"
   }, {
     "name" : "thread",
-    "value" : "2452@runnervmg397c.main(1)"
+    "value" : "2388@runnervmg397c.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6c266b70fd0aba34.json",
+  "source" : "d832398abfa83e08.json",
   "parameterValues" : [ ]
 }

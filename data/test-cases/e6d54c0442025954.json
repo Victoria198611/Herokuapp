@@ -1,24 +1,24 @@
 {
-  "uid" : "425a9738b936010d",
-  "name" : "testSecurePageMessage",
-  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageMessage",
-  "historyId" : "bb5ade267ba00330192ce1bf3e1a669f",
+  "uid" : "e6d54c0442025954",
+  "name" : "testSecurePageURL",
+  "fullName" : "com.victoria.herokuapp.LoginTest.testSecurePageURL",
+  "historyId" : "ebcbb5f714902a03810be80470bd4537",
   "time" : {
-    "start" : 1779698876432,
-    "stop" : 1779698876878,
-    "duration" : 446
+    "start" : 1779699222512,
+    "stop" : 1779699222860,
+    "duration" : 348
   },
-  "description" : "Check the success message after valid login",
-  "descriptionHtml" : "<p>Check the success message after valid login</p>\n",
+  "description" : "Check the Secure Page URL after a valid login",
+  "descriptionHtml" : "<p>Check the Secure Page URL after a valid login</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1779698875277,
-      "stop" : 1779698876430,
-      "duration" : 1153
+      "start" : 1779699222056,
+      "stop" : 1779699222510,
+      "duration" : 454
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "setupEnvironment",
     "time" : {
-      "start" : 1779698860652,
-      "stop" : 1779698860657,
+      "start" : 1779699211534,
+      "stop" : 1779699211539,
       "duration" : 5
     },
     "description" : "",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1779698876879,
-      "stop" : 1779698876949,
-      "duration" : 70
+      "start" : 1779699222861,
+      "stop" : 1779699222932,
+      "duration" : 71
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "com.victoria.herokuapp.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testSecurePageMessage"
+    "value" : "testSecurePageURL"
   }, {
     "name" : "parentSuite",
     "value" : "HerokuApp Suite"
@@ -86,7 +86,7 @@
     "value" : "runnervmg397c"
   }, {
     "name" : "thread",
-    "value" : "2452@runnervmg397c.main(1)"
+    "value" : "2388@runnervmg397c.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "425a9738b936010d.json",
+  "source" : "e6d54c0442025954.json",
   "parameterValues" : [ ]
 }
