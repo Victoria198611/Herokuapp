@@ -22,7 +22,6 @@ Tehnologii utilizate
 •	WebDriverManager
 
 Structura proiectului
-Cod
 src
  └── test
      ├── java
