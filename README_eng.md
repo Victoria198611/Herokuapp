@@ -21,7 +21,6 @@ Technologies Used
 •	WebDriverManager
 
 Project Structure
-Cod
 src
  └── test
      ├── java
@@ -45,13 +44,10 @@ Covered Functionalities
 
 Running Tests
 1. Run locally
-Cod
 mvn clean test
 2. Generate Allure report
-Cod
 mvn allure:report
 3. View report locally
-Cod
 allure serve target/allure-results
 
 Public Allure Report
@@ -73,7 +69,6 @@ The pipeline runs automatically on every push to the main branch:
 
 Automatic Screenshots
 For every failed test, the framework automatically captures a screenshot and attaches it to the Allure report. Implementation can be found in:
-Cod
 utils/ScreenshotUtils.java
 
 Page Object Model
